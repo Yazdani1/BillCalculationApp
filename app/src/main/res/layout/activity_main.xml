@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="yazdaniscodelab.billcalculationapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="15dp"
+        android:text="Bill Calculation App"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Number of member"
+        android:id="@+id/edt_numberOfMember"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Total Bill"
+        android:id="@+id/edt_totalBill"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:text="Each Person Bill is:"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/result_txt"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/Calculate_btn"
+        android:background="@color/colorPrimary"
+        android:text="Calculate"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+</LinearLayout>
